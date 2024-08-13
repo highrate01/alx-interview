@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """contains a module that define a lockAll class"""
+
+
 def canUnlockAll(boxes):
     """defines a countall method"""
     if not boxes or len(boxes) == 0:
