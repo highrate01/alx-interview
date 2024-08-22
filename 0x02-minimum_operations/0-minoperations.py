@@ -3,6 +3,7 @@
 copy/paste interview
 """
 
+
 def minOperations(n):
     """
     Calculates the fewest number of operations needed
