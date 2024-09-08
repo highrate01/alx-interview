@@ -11,6 +11,7 @@ def validUTF8(data: List[int]) -> bool:
     """
     count = 0
     for num in data:
+        num = num & 0xFF
         if count == 0:
             if (num >> 5) == 0b110:
                 count = 1
